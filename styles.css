@@ -120,4 +120,76 @@ ul li img {
 .galeria img:hover {
     transform: scale(1.1);
 }
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .apresentacao {
+        padding: 5% 8%;
+    }
+
+    .titulo {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .paragrafo {
+        font-size: 18px;
+    }
+
+    .galeria {
+        justify-content: center;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+
+    .navegacao {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .apresentacao {
+        padding: 20px;
+    }
+
+    .conteudo {
+        gap: 20px;
+    }
+
+    .titulo {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .subtitulo,
+    .fotos {
+        font-size: 22px;
+    }
+
+    .paragrafo {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .galeria {
+        justify-content: center;
+    }
+
+    .galeria img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .rodape {
+        font-size: 14px;
+        padding: 15px;
+    }
 }

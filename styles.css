@@ -95,3 +95,18 @@ h1, h2 {
     color: var(--color-background);
 
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li img {
+    width: 250px; /* largura desejada */
+    height: 250px; /* altura desejada */
+    object-fit: cover; /* ajusta sem distorcer */
+    border-radius: 10px; /* opcional */
+}

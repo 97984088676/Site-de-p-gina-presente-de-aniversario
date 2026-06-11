@@ -111,8 +111,8 @@ ul li img {
     border-radius: 10px; /* opcional */
 }
 .galeria img {
-    width: 100px;
-    height: auto;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
